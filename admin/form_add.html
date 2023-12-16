@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Add product page</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<!-- menu -->
+<div class="container  mb-3">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="cart.html">Cart</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="admin.html">Admin</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+<!-- end menu -->
+
+<div class="container">
+
+	<h1 class="text-center">Add product page</h1>
+	
+	<div class="row">
+		<div class="col-6 mx-auto">
+			<form>
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="price">Price</label>
+					<input type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="description">Description</label>
+					<textarea class="form-control" id="description" rows="3"></textarea>
+				</div>
+				<div class="form-group">
+					<label for="image">Image</label>
+					<input type="file" class="form-control-file" id="image">
+				</div>
+			  	<button type="submit" class="btn btn-primary">Add</button>
+			</form>
+		</div>
+	</div>
+	
+	
+</div>
+ 
+</body>
+</html>

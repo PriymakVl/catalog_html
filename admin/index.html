@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Admin page</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<!-- menu -->
+<div class="container  mb-3">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cart.html">Cart</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="admin.html">Admin</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+<!-- end menu -->
+
+<div class="container">
+	<h1 class="text-center">Admin page</h1>
+	
+	<a href="form_add.html" class="btn btn-primary mb-3" role="button">Add product</a>
+	
+	<table class="table table-bordered table-hover">
+		<thead class="thead-dark">
+		<tr>
+			<th scope="col">#</th>
+			<th scope="col">Name</th>
+			<th scope="col">Description</th>
+			<th scope="col">Price</th>
+			<th scope="col">Image</th>
+			<th scope="col">Actions</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>1</td>
+			<td>Police Unit K-9</td>
+			<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sint provident incidunt eius ullam sed distinctio earum. Dicta ab nisi porro eveniet. Nulla iure minus cumque unde reprehenderit, dicta aliquid?</td>
+			<td class="price">8$</td>
+			<td>
+				<img src="../assets/img/1.jpg" alt="tshirt" height="100px"></td>
+			<td>
+				<a href="#" class="btn-sm btn-danger btn-block">Delete</a>
+				<a href="#" class="btn-sm btn-primary btn-block">Edit</a>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+ 
+</body>
+</html>
